@@ -2,8 +2,12 @@
 /********** General CSS ***********/
 /**********************************/
 body {
-    color: #666666;
-    background: #F6D155;
+   /*  color: #666666;
+    background: transparent; */
+    background-image: url("../img/bgdark.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -47,7 +51,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #F6D155;
+    /* background: transparent; */
 }
 
 .wrapper .sidebar-header,
@@ -112,7 +116,7 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        background: #F6D155;
+        background: transparent;
         z-index: 1;
     }
     
@@ -350,7 +354,7 @@ a:focus {
 
 .large-btn .content-inner {
     font-size: 0;
-    border-bottom: 30px solid #F6D155;
+   /*  border-bottom: 30px solid transparent; */
 }
 
 .large-btn .btn {
@@ -425,7 +429,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    /* border-bottom: 30px solid transparent; */
 }
 
 
@@ -493,7 +497,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    /* border-bottom: 30px solid transparent; */
 }
 
 .education .edu-col {
@@ -501,7 +505,7 @@ a:focus {
     width: 100%;
     padding: 20px 0 20px 20px;
     border-left: 1px solid #FF6F61;
-    border-bottom: 1px solid #FF6F61;
+    /* border-bottom: 1px solid #FF6F61; */
 }
 
 .education .col-md-6:first-child .edu-col {
@@ -566,7 +570,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    border-bottom: 30px solid transparent;
 }
 
 .experience .exp-col {
@@ -574,7 +578,7 @@ a:focus {
     width: 100%;
     padding: 20px 0 20px 20px;
     border-left: 1px solid #FF6F61;
-    border-bottom: 1px solid #FF6F61;
+    /* border-bottom: 1px solid #FF6F61; */
 }
 
 .experience .col-md-6:first-child .exp-col {
@@ -653,7 +657,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    /* border-bottom: 30px solid transparent; */
 }
 
 .service .srv-col {
@@ -700,7 +704,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    /* border-bottom: 30px solid transparent; */
 }
 
 .portfolio #portfolio-flters {
@@ -847,7 +851,7 @@ a:focus {
 .review {
     position: relative;
     background: #ffffff;
-    border-bottom: 30px solid #F6D155;
+    /* border-bottom: 30px solid transparent; */
 }
 
 .review .content-inner {
@@ -1074,7 +1078,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 30px 30px 0 30px;
-    background: #F6D155;
+    /* background: transparent; */
 }
 
 .footer .col-md-6:last-child {
