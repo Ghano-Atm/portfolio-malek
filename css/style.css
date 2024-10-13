@@ -2,8 +2,8 @@
 /********** General CSS ***********/
 /**********************************/
 body {
-   /*  color: #666666;
-    background: transparent; */
+   /*  color: #666666; */
+    /* background: rgba(128, 128, 128, 0.205); */
     background-image: url("../img/bgdark.jpg");
     background-size: cover;
     background-repeat: no-repeat;
